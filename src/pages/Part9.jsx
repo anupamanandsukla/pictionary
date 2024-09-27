@@ -9,7 +9,7 @@ import {
 } from "../components/ui/accordion"
 const Part9 = () => {
   return (
-    <div className=' flex flex-col justify-center gap-y-4 p-4  bg-gradient-to-b from-[#000000] from-30% via-[#DB3101] via-70% to-[#FF850A] to-90% to-[#FF850A] mx-8' >
+    <div className=' flex flex-col justify-center gap-y-4 p-4  bg-gradient-to-b from-[#000000] from-30% via-[#DB3101] via-70% to-[#FF850A] to-90% to-[#FF850A] md:mx-8' >
           <div className='mx-auto justify-center text-4xl font-normal '>
           Let's synergize
           </div>
@@ -20,8 +20,8 @@ Traditional design has been shown the exit; the design you desire has just made 
           </div>
 
           <div className='max-w-md mx-auto justify-center text-sm leading-7 text-muted font-normal '>
-          <button >
-          <svg width="491" height="121" viewBox="0 0 491 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className='w-fit' >
+          <svg width="491" height="61" viewBox="0 0 491 121" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_0_1032)">
 <rect x="0.5" y="5.96973" width="465" height="70" rx="35" fill="#0D0D0D"/>
 <g clip-path="url(#clip0_0_1032)">
@@ -59,7 +59,7 @@ Traditional design has been shown the exit; the design you desire has just made 
 </defs>
 </svg>
 
-        </button>
+        </div>
           </div>
         </div>
   )

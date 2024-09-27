@@ -10,12 +10,12 @@ import {
 const Part8 = () => {
   return (
     <div className='w-full flex flex-col justify-center gap-y-4 px-8 py-4' >
-          <div className='flex w-full px-8'>
-            <div className=' w-4/12 pt-4 text-4xl font-thin'>
+          <div className='md:flex w-full px-8'>
+            <div className=' md:w-4/12 pt-4 text-4xl font-thin'>
 
           Answer to <br />Your questions
             </div>
-          <div class="relative w-8/12 flex flex-col gap-y-4 overflow-x-hidden text-center px-8"> 
+          <div class="relative w-full md:w-8/12 flex flex-col gap-y-4 overflow-x-hidden text-center md:px-8"> 
           <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
         <AccordionTrigger>What skills does our group possess?</AccordionTrigger>

@@ -7,7 +7,7 @@ const Part3 = () => {
             How to Get Started
           </div>
           <div
-          className='max-w-md mx-auto justify-center text-sm leading-7 font-normal '
+          className='text-center w-full mx-auto px-4 justify-center text-sm leading-7 font-normal sm:mx-8'
           >
           Conventional design has been shown the door
           the design you crave has just made its appearance.
