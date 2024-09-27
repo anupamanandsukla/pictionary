@@ -98,17 +98,9 @@ const Layout = () => {
                     height: "100vh",
                     height: "100svh",
                     height: "100dvh",
-                    maxWidth: "500px",
-                    minWidth: "300px",
-                    backgroundColor: camerabg.includes(location.pathname) ? 'rgba(0, 0, 0, 0.25)' : ""
                 }}
                 className={`relative flex flex-col mx-auto ${animationClasses} animate-once animate-duration-700 animate-ease-in-out animate-normal animate-fill-both align-middle`}
             >
-                <div className="sticky top-0 z-10">
-                    <HeaderComponent
-                        background={camerabg.includes(location.pathname)}
-                    />
-                </div>
                     <Outlet />
             </main>
         </div>
