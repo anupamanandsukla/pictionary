@@ -3,7 +3,7 @@ import React from 'react'
 const Part1 = () => {
   return (
     <div>
-        <div className="min-h-screen bg-black text-white p-4 md:p-8">
+        <div className="min-h-96  bg-black text-white p-4 md:p-8">
       <header className="flex justify-between items-center mb-8">
         <div className="text-2xl font-bold">
         <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,11 +104,9 @@ const Part1 = () => {
         </nav>
       </header>
 
-      <main className="bg-black flex flex-col md:flex-row justify-between items-center mb-8">
+      <main className="bg-black flex flex-col md:flex-row justify-between items-center mb-8 w-full">
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1761"
-      height="756"
       fill="none"
       viewBox="0 0 1761 756"
     >
