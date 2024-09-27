@@ -3,11 +3,11 @@ import React from 'react'
 const Part3 = () => {
   return (
         <div className='w-full flex flex-col justify-center gap-y-4' >
-          <div className='mx-auto justify-center text-6xl font-normal '>
+          <div className='mx-auto justify-center text-4xl font-normal '>
             How to Get Started
           </div>
           <div
-          className='max-w-md mx-auto justify-center text-sm leading-7 text-muted font-normal '
+          className='max-w-md mx-auto justify-center text-sm leading-7 font-normal '
           >
           Conventional design has been shown the door
           the design you crave has just made its appearance.

@@ -14,7 +14,7 @@ import { Coffee } from 'lucide-react';
 const Part7 = () => {
   return (
     <div className='w-full flex flex-col justify-center gap-y-4 px-8' >
-          <div className='max-w-lg mx-auto text-center justify-center text-6xl font-normal '>
+          <div className='max-w-lg mx-auto text-center justify-center text-4xl font-normal '>
           Membership
           </div>
           <div className='flex w-full'>

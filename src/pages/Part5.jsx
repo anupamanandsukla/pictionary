@@ -4,7 +4,7 @@ import { Card1, Card2, Card3, Card4, Vercel, Vercel1, Vercel2, Vercel3, Vercel4 
 const Part5 = () => {
   return (
     <div className='w-full flex flex-col justify-center gap-y-4 px-8' >
-          <div className='max-w-sm mx-auto text-center justify-center text-6xl font-normal '>
+          <div className='max-w-sm mx-auto text-center justify-center text-4xl font-normal '>
             Why DesignLab
           </div>
           <div class="relative flex overflow-x-hidden w-full text-center px-8"> 

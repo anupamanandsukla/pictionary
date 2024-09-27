@@ -12,6 +12,7 @@ import Part5 from "./Part5";
 import Part6 from "./Part6";
 import Part7 from "./Part7";
 import Part8 from "./Part8";
+import Part9 from "./Part9";
 const tasks = [
   { id: 1, name: 'Logo Design', status: 'todo' },
   { id: 2, name: 'Facebook banner', status: 'todo' },
@@ -33,7 +34,7 @@ function Home() {
       <Part6    />
       <Part7  />
       <Part8  />
-      
+      <Part9  />
 
       
       </div>

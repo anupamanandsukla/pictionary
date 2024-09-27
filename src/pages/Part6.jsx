@@ -12,7 +12,7 @@ import {
 const Part6 = () => {
   return (
     <div className='w-full flex flex-col justify-center gap-y-4 px-8' >
-          <div className='max-w-lg mx-auto text-center justify-center text-6xl font-normal '>
+          <div className='max-w-lg mx-auto text-center justify-center text-4xl font-normal '>
           Made by DesignLab
           </div>
           <div class="relative flex overflow-x-hidden w-full text-center px-8"> 
