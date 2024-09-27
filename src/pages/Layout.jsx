@@ -109,29 +109,7 @@ const Layout = () => {
                         background={camerabg.includes(location.pathname)}
                     />
                 </div>
-
-                <div className='flex-grow'>
-                    {browserErr2 ? <Location
-                        checkAccessTxt={"Provide permission to access your location"}
-                        browserErr2={browserErr2}
-                    />
-
-                        : browserErr1 ? <Permission
-                            checkAccessTxt={browserErr1}
-
-                        /> :
-                            <Outlet />
-                    }
-                    {/* {browserErr1 || browserErr2 ? (
-                        <div>
-                            <Permission
-                            />
-                        </div>
-                    ) : (
-                        <>
-                        </>
-                    )} */}
-                </div>
+                    <Outlet />
             </main>
         </div>
     )
