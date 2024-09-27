@@ -102,6 +102,7 @@ const Layout = () => {
                 className={`relative flex flex-col mx-auto ${animationClasses} animate-once animate-duration-700 animate-ease-in-out animate-normal animate-fill-both align-middle`}
             >
                     <Outlet />
+                    
             </main>
         </div>
     )
