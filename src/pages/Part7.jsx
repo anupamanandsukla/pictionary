@@ -17,13 +17,15 @@ const Part7 = () => {
           <div className='max-w-lg mx-auto text-center justify-center text-4xl font-normal '>
           Membership
           </div>
-          <div className='flex w-full'>
+          <div className='md:flex w-full gap-4'>
 
-          <div class="relative w-9/12 flex flex-col gap-y-4 overflow-x-hidden text-center px-8"> 
+          <div class="relative md:w-9/12 md:flex flex-col gap-y-4 overflow-x-hidden text-center px-8"> 
           <MembershipCard/>
           <MembershipCard1/>
             </div>
+          <div class='relative md:w-3/12 my-4 md:flex flex-col gap-y-4 overflow-x-hidden text-center px-8'>
             <ScheduleTalkCard/>
+          </div>
           </div>
         </div>
   )
@@ -38,9 +40,9 @@ const MembershipCard = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <div className=" rounded-2xl overflow-hidden w-full mx-auto">
-      <div className="flex ">
-        <div className="w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
+    <div className=" rounded-2xl overflow-hidden w-full mx-auto my-6">
+      <div className="md:flex ">
+        <div className="md:w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center space-x-3">
               <div className="bg-lime-400 rounded-full p-2">
@@ -79,7 +81,7 @@ const MembershipCard = () => {
             Get started →
           </button>
         </div>
-        <div className="w-1/2 p-8  bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
+        <div className="md:w-1/2 p-8  bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
           <h4 className="text-white text-xl text-left font-semibold mb-6">What's included</h4>
           <ul className="text-gray-300 space-y-2 font-thin text-sm">
             {[
@@ -107,8 +109,8 @@ const MembershipCard1 = () => {
 
   return (
     <div className=" rounded-2xl overflow-hidden w-full mx-auto">
-      <div className="flex">
-        <div className="w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
+      <div className="md:flex">
+        <div className="md:w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center space-x-3">
               <div className="bg-lime-400 rounded-full p-2">
@@ -147,7 +149,7 @@ const MembershipCard1 = () => {
             Get started →
           </button>
         </div>
-        <div className="w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
+        <div className="md:w-1/2 p-8 bg-gradient-to-r from-[#333232cc] to-[#4545453B]">
           <h4 className="text-white text-xl text-left font-semibold mb-6">What's included</h4>
           <ul className="text-gray-300 space-y-2 font-thin text-sm">
             {[
@@ -171,7 +173,7 @@ const MembershipCard1 = () => {
 };
 const ScheduleTalkCard = () => {
   return (
-    <div className="relative bg-gradient-to-r from-[#333232cc] to-[#4545453B] rounded-3xl overflow-hidden max-w-sm mx-auto p-8 flex flex-col justify-between min-h-[320px] isolation">
+    <div className="relative bg-gradient-to-r w-full from-[#333232cc] to-[#4545453B] rounded-3xl overflow-hidden max-w-sm mx-auto p-8 flex flex-col justify-between min-h-[320px] isolation">
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-r from-[#333232cc] to-[#4545453B]"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_100%_100%,rgba(0,0,0,0.3),transparent_70%)]"></div>
