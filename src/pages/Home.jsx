@@ -14,7 +14,7 @@ function Home() {
         <button className="flex  gap-4 p-4 justify-end font-bold text-xl  items-center rounded-lg cursor-pointer float-right"
           onClick={() => navigate('/welcome')}
         >
-          {labels.letstart}
+          Welocme anupam
           <ArrowSvg className="h-16 w-16 rounded-full bg-[#064CD0] flex items-center justify-center" />
         </button>
       </div>
